@@ -34,12 +34,12 @@ ALLOWED_HOSTS = [
     '.ngrok-free.dev',
     '.ngrok.io',
 
-    # render
-    'testtttttt-kf9v.onrender.com',
-
     # vercel
     'taskflow-devops.vercel.app',
     '.vercel.app',
+
+    # render ✅ ADD THIS
+    '.onrender.com',
 ]
 
 # CSRF trusted origins for ngrok
