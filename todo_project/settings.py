@@ -29,12 +29,17 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'subclimatic-sherri-nonprovocatively.ngrok-free.dev',
-    '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
-    '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
+
+    # ngrok
+    '.ngrok-free.dev',
+    '.ngrok.io',
+
+    # render
     'testtttttt-kf9v.onrender.com',
-    'https://taskflow-devops.vercel.app',
-    '.vercel.app'
+
+    # vercel
+    'taskflow-devops.vercel.app',
+    '.vercel.app',
 ]
 
 print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
