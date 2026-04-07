@@ -42,8 +42,6 @@ ALLOWED_HOSTS = [
     '.vercel.app',
 ]
 
-print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
-
 # CSRF trusted origins for ngrok
 # Note: Django doesn't support wildcards in CSRF_TRUSTED_ORIGINS
 # If you get a new ngrok domain, add it here
