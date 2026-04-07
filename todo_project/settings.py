@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-^=kn+1e3qi0rxqwk*bnt14qhnhl&xos(z&12@9+g3-2cg5o(4_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
@@ -32,8 +33,11 @@ ALLOWED_HOSTS = [
     '.ngrok-free.dev',  # Allow all ngrok-free.dev subdomains
     '.ngrok.io',  # Allow all ngrok.io subdomains (for paid ngrok)
     'testtttttt-kf9v.onrender.com',
-    'https://taskflow-devops.vercel.app'
+    'https://taskflow-devops.vercel.app',
+    '.vercel.app'
 ]
+
+print("ALLOWED_HOSTS:", ALLOWED_HOSTS)
 
 # CSRF trusted origins for ngrok
 # Note: Django doesn't support wildcards in CSRF_TRUSTED_ORIGINS
