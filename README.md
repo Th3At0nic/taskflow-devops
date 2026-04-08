@@ -8,7 +8,7 @@ A production-ready task management web application built with Django and deploye
 
 👉 https://taskflow-devops-7vk3.onrender.com/
 
------
+---------------
 
 ## 📌 Overview
 
@@ -19,7 +19,7 @@ TaskFlow DevOps is a Todo/task management system designed to showcase:
 * Cloud deployment using Render
 * Production-ready configurations (Gunicorn, environment-based setup)
 
------
+---------------
 
 
 ## ✨ Features
@@ -32,7 +32,7 @@ TaskFlow DevOps is a Todo/task management system designed to showcase:
 * ✅ AJAX-based task status toggle
 * ✅ Django messages framework for feedback
 
----
+-----------------
 
 ## 🧰 Tech Stack
 
@@ -42,7 +42,7 @@ TaskFlow DevOps is a Todo/task management system designed to showcase:
 * **Server**: Gunicorn (production)
 * **Deployment**: Render
 
----
+---------------
 
 ## ⚙️ Deployment Highlights
 
@@ -54,7 +54,7 @@ This project includes:
 * ⚡ Production server using Gunicorn
 * 📦 Dependency management via `requirements.txt`
 
----
+----------------
 
 ## 🛠️ Local Setup
 
@@ -63,7 +63,7 @@ This project includes:
 * Python 3.8+
 * pip
 
----
+-------------
 
 ### Installation
 
