@@ -15,9 +15,9 @@ A production-ready task management web application built with Django and deploye
 TaskFlow DevOps is a Todo/task management system designed to showcase:
 
 * Backend development using Django
-* Clean project structure and modular design
-* Cloud deployment using Render
-* Production-ready configurations (Gunicorn, environment-based setup)
+* Clean project structure and modular design.
+* Cloud deployment using Render.
+* Production-ready configurations (Gunicorn, environment-based setup).
 
 -----
 
